@@ -3,180 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Coding Agents 2026</title>
+    <title>AI Coding Agents 2026 — Complete Ranking</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="site-header">
+    <!-- Top Nav Bar -->
+    <nav class="topnav" id="topnav">
+        <div class="nav-inner">
+            <a href="#top" class="nav-logo"><span class="logo-mark"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span> coding-agents<span class="logo-year">2026</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#rankings">Rankings</a></li>
+                <li><a href="#comparison">Compare</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero" id="top">
+        <span class="badge-live" id="updatedBadge">Updated April 3, 2026</span>
         <h1>AI Coding Agents 2026</h1>
-        <p class="subtitle">Top AI coding assistants ranked by popularity</p>
+        <p class="hero-sub">Complete ranking of every major AI coding agent by popularity and adoption</p>
+        <div class="stats-row">
+            <div class="stat"><span class="stat-num">85%</span><span class="stat-label">Devs use AI tools</span></div>
+            <div class="stat"><span class="stat-num">42%</span><span class="stat-label">Code is AI-assisted</span></div>
+            <div class="stat"><span class="stat-num">14+</span><span class="stat-label">Active agents</span></div>
+            <div class="stat"><span class="stat-num">$2.5B</span><span class="stat-label">Claude Code ARR</span></div>
+        </div>
     </header>
 
-    <main class="container">
-        <!-- Tier 1: The Big Three -->
-        <section class="tier-section">
-            <div class="tier-badge tier-1">Tier 1: The Big Three</div>
-            <div class="card-grid">
-                <article class="card">
-                    <h2 class="agent-name">GitHub Copilot</h2>
-                    <p class="agent-desc">VS Code/JetBrains extension. Most widely used.</p>
-                    <div class="agent-pricing">Free / Pro $10/mo</div>
-                    <div class="agent-links">
-                        <a href="https://github.com" class="link">GitHub</a>
-                        <a href="#" class="link">Website</a>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <h2 class="agent-name">Claude Code</h2>
-                    <p class="agent-desc">Terminal-native agent. SWE-bench 80.9%.</p>
-                    <div class="agent-pricing">$20-200/mo</div>
-                    <div class="agent-links">
-                        <a href="https://github.com" class="link">GitHub</a>
-                        <a href="#" class="link">Website</a>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <h2 class="agent-name">Cursor</h2>
-                    <p class="agent-desc">AI-native IDE. Multi-agent parallel.</p>
-                    <div class="agent-pricing">$20/mo</div>
-                    <div class="agent-links">
-                        <a href="https://github.com" class="link">GitHub</a>
-                        <a href="#" class="link">Website</a>
-                    </div>
-                </article>
+    <!-- Filter Bar -->
+    <section class="filter-bar" id="rankings">
+        <div class="filter-inner">
+            <div class="search-wrap">
+                <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                <input type="text" id="searchInput" placeholder="Search agents..." class="search-input">
             </div>
-        </section>
-
-        <!-- Tier 2: Major Contenders -->
-        <section class="tier-section">
-            <div class="tier-badge tier-2">Tier 2: Major Contenders</div>
-            <div class="card-grid">
-                <article class="card">
-                    <h2 class="agent-name">OpenClaw</h2>
-                    <p class="agent-desc">Open-source CLI framework. Skill-based. Pay per use.</p>
-                    <div class="agent-pricing">Pay per use</div>
-                    <div class="agent-links">
-                        <a href="https://github.com" class="link">GitHub</a>
-                        <a href="#" class="link">Website</a>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <h2 class="agent-name">Cline</h2>
-                    <p class="agent-desc">Open-source VS Code agent. 95K+ GitHub stars. 2.5M monthly devs.</p>
-                    <div class="agent-pricing">Free</div>
-                    <div class="agent-links">
-                        <a href="https://github.com" class="link">GitHub</a>
-                        <a href="#" class="link">Website</a>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <h2 class="agent-name">OpenCode</h2>
-                    <p class="agent-desc">Open-source terminal agent.</p>
-                    <div class="agent-pricing">Free</div>
-                    <div class="agent-links">
-                        <a href="https://github.com" class="link">GitHub</a>
-                        <a href="#" class="link">Website</a>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <h2 class="agent-name">Windsurf</h2>
-                    <p class="agent-desc">AI-native IDE. Multi-agent.</p>
-                    <div class="agent-pricing">$15/mo</div>
-                    <div class="agent-links">
-                        <a href="https://github.com" class="link">GitHub</a>
-                        <a href="#" class="link">Website</a>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <h2 class="agent-name">Codex (OpenAI)</h2>
-                    <p class="agent-desc">Cloud-native agent. GitHub integration.</p>
-                    <div class="agent-pricing">Pay per usage</div>
-                    <div class="agent-links">
-                        <a href="https://github.com" class="link">GitHub</a>
-                        <a href="#" class="link">Website</a>
-                    </div>
-                </article>
+            <div class="filter-pills">
+                <button class="pill active" data-filter="all">All</button>
+                <button class="pill" data-filter="cli">CLI</button>
+                <button class="pill" data-filter="ide">IDE</button>
+                <button class="pill" data-filter="extension">Extension</button>
+                <button class="pill" data-filter="cloud">Cloud</button>
+                <button class="pill" data-filter="free">Free</button>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Tier 3: Notable -->
-        <section class="tier-section">
-            <div class="tier-badge tier-3">Tier 3: Notable</div>
-            <div class="card-grid">
-                <article class="card">
-                    <h2 class="agent-name">Aider</h2>
-                    <p class="agent-desc">Git-aware CLI assistant.</p>
-                    <div class="agent-pricing">Free</div>
-                    <div class="agent-links">
-                        <a href="https://github.com" class="link">GitHub</a>
-                        <a href="#" class="link">Website</a>
-                    </div>
-                </article>
+    <!-- Tier 1 -->
+    <section class="tier" id="tier1">
+        <h2 class="tier-heading"><span class="tier-badge badge-green">Tier 1</span> The Big Three</h2>
+        <div class="cards-featured" id="cardsTier1">
+            <!-- Filled by JS -->
+        </div>
+    </section>
 
-                <article class="card">
-                    <h2 class="agent-name">Devin</h2>
-                    <p class="agent-desc">Autonomous AI engineer.</p>
-                    <div class="agent-pricing">$20/mo</div>
-                    <div class="agent-links">
-                        <a href="https://github.com" class="link">GitHub</a>
-                        <a href="#" class="link">Website</a>
-                    </div>
-                </article>
+    <!-- Tier 2 -->
+    <section class="tier tier-alt" id="tier2">
+        <h2 class="tier-heading"><span class="tier-badge badge-yellow">Tier 2</span> Major Contenders</h2>
+        <div class="cards-grid" id="cardsTier2">
+            <!-- Filled by JS -->
+        </div>
+    </section>
 
-                <article class="card">
-                    <h2 class="agent-name">Roo Code</h2>
-                    <p class="agent-desc">VS Code extension.</p>
-                    <div class="agent-pricing">Free</div>
-                    <div class="agent-links">
-                        <a href="https://github.com" class="link">GitHub</a>
-                        <a href="#" class="link">Website</a>
-                    </div>
-                </article>
+    <!-- Tier 3 -->
+    <section class="tier" id="tier3">
+        <h2 class="tier-heading"><span class="tier-badge badge-orange">Tier 3</span> Notable</h2>
+        <div class="cards-grid" id="cardsTier3">
+            <!-- Filled by JS -->
+        </div>
+    </section>
 
-                <article class="card">
-                    <h2 class="agent-name">Playcode Agent</h2>
-                    <p class="agent-desc">Cloud-based coding. Free tier available.</p>
-                    <div class="agent-pricing">Free tier</div>
-                    <div class="agent-links">
-                        <a href="https://github.com" class="link">GitHub</a>
-                        <a href="#" class="link">Website</a>
+    <!-- Quiz Section -->
+    <section class="quiz-section" id="quiz">
+        <div class="quiz-inner">
+            <h2>Which Agent Is Best For You?</h2>
+            <p>Answer 3 quick questions and we'll recommend the right agent.</p>
+            <div id="quizContent">
+                <div class="quiz-step" data-step="1">
+                    <p class="quiz-question">Where do you prefer to code?</p>
+                    <div class="quiz-options">
+                        <button class="quiz-btn" data-value="terminal" data-next="2">Terminal / CLI</button>
+                        <button class="quiz-btn" data-value="ide" data-next="2">IDE (VS Code etc.)</button>
+                        <button class="quiz-btn" data-value="browser" data-next="2">Browser</button>
                     </div>
-                </article>
-
-                <article class="card">
-                    <h2 class="agent-name">KiloCode</h2>
-                    <p class="agent-desc">VS Code extension. Multi-model support.</p>
-                    <div class="agent-pricing">Free</div>
-                    <div class="agent-links">
-                        <a href="https://github.com" class="link">GitHub</a>
-                        <a href="#" class="link">Website</a>
+                </div>
+                <div class="quiz-step" data-step="2" hidden>
+                    <p class="quiz-question">What's your budget?</p>
+                    <div class="quiz-options">
+                        <button class="quiz-btn" data-value="free" data-next="3">Free / open-source</button>
+                        <button class="quiz-btn" data-value="budget" data-next="3">Budget ($10-20/mo)</button>
+                        <button class="quiz-btn" data-value="unlimited" data-next="3">Best quality, pay more</button>
                     </div>
-                </article>
-
-                <article class="card">
-                    <h2 class="agent-name">Continue.dev</h2>
-                    <p class="agent-desc">Open-source extension.</p>
-                    <div class="agent-pricing">Free</div>
-                    <div class="agent-links">
-                        <a href="https://github.com" class="link">GitHub</a>
-                        <a href="#" class="link">Website</a>
+                </div>
+                <div class="quiz-step" data-step="3" hidden>
+                    <p class="quiz-question">What's your primary need?</p>
+                    <div class="quiz-options">
+                        <button class="quiz-btn" data-value="autocomplete" data-next="result">Daily autocomplete & suggestions</button>
+                        <button class="quiz-btn" data-value="complex" data-next="result">Complex multi-step tasks</button>
+                        <button class="quiz-btn" data-value="autonomous" data-next="result">Fully autonomous coding</button>
                     </div>
-                </article>
+                </div>
+                <div class="quiz-step quiz-result" data-step="result" hidden>
+                    <p class="quiz-result-label">We recommend:</p>
+                    <div id="quizResult"></div>
+                </div>
             </div>
-        </section>
-    </main>
+            <button class="quiz-reset" id="quizReset" hidden>Start over</button>
+        </div>
+    </section>
 
-    <footer class="site-footer">
-        <p>Built with ♥</p>
+    <!-- Comparison Table -->
+    <section class="tier" id="comparison">
+        <h2 class="tier-heading">Comparison Table</h2>
+        <div class="table-wrap">
+            <table class="compare" id="compareTable">
+                <thead>
+                    <tr>
+                        <th class="th-sort" data-col="rank" onclick="sortTable('rank')">Rank</th>
+                        <th class="th-sort" data-col="name" onclick="sortTable('name')">Agent</th>
+                        <th>Type</th>
+                        <th>Open Source</th>
+                        <th class="th-sort" data-col="price" onclick="sortTable('price')">Price</th>
+                        <th>SWE-bench</th>
+                        <th>Users</th>
+                    </tr>
+                </thead>
+                <tbody id="compareBody">
+                    <!-- Filled by JS -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="tier tier-alt faq-section" id="faq">
+        <h2 class="tier-heading">Frequently Asked Questions</h2>
+        <div class="faq-list">
+            <details class="faq-item">
+                <summary>What makes a coding "agent" different from AI autocomplete?</summary>
+                <p>Agents can plan multi-step tasks, execute shell commands, modify and create files, and deploy applications autonomously. Autocomplete only suggests the next few characters. Agents understand your full codebase and make structural changes.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Is SWE-bench a good measure of real performance?</summary>
+                <p>SWE-bench (Software Engineering Benchmark) tests whether an AI can fix real GitHub issues. It's the most respected benchmark as of 2026, but real-world tasks are messier. The scores above are helpful for comparison but shouldn't be the only factor.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Which is the best free option?</summary>
+                <p>For terminal workflows, <strong>Cline</strong> (95K+ GitHub stars, 2.5M monthly devs) is the most capable free agent with 75+ LLM provider support. For IDE use, <strong>GitHub Copilot Free</strong> gives 2,000 completions and 50 chats per month.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Is it worth paying $200/month for Claude Code Max?</summary>
+                <p>If you're doing heavy daily development with complex refactors and architectural changes, yes. The reasoning depth pays for itself. For casual use, the $20 plan is plenty.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Can I use multiple agents together?</summary>
+                <p>Absolutely. Many developers use GitHub Copilot for daily autocomplete, then switch to Claude Code for hard problems. The best workflow varies by person.</p>
+            </details>
+            <details class="faq-item">
+                <summary>How are these rankings determined?</summary>
+                <p>Rankings are based on a combination of: active user count, developer surveys (Stack Overflow 2026, State of JS), GitHub stars, revenue/ARR data, and community mindshare. Sources include UseClawPro, MorphLLM, Codegen, LogRocket, and NxCode.</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Built by <strong>Ruby</strong> <span class="heart">💎</span></p>
+        <p class="footer-sub">Data collected from public sources. Last updated April 3, 2026.</p>
+        <a href="#top" class="footer-back">Back to top ↑</a>
     </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
